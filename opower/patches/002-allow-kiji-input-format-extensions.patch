@@ -1,0 +1,13 @@
+diff --git a/kiji-mapreduce/src/main/java/org/kiji/mapreduce/framework/KijiTableInputFormat.java b/kiji-mapreduce/src/main/java/org/kiji/mapreduce/framework/KijiTableInputFormat.java
+index 0760dc7..0f4cc6c 100644
+--- a/kiji-mapreduce/src/main/java/org/kiji/mapreduce/framework/KijiTableInputFormat.java
++++ b/kiji-mapreduce/src/main/java/org/kiji/mapreduce/framework/KijiTableInputFormat.java
+@@ -68,7 +68,7 @@ import org.kiji.schema.util.ResourceUtils;
+ /** InputFormat for Hadoop MapReduce jobs reading from a Kiji table. */
+ @ApiAudience.Framework
+ @ApiStability.Stable
+-public final class KijiTableInputFormat
++public class KijiTableInputFormat
+     extends InputFormat<EntityId, KijiRowData>
+     implements Configurable {
+ 
